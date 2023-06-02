@@ -1,13 +1,13 @@
 @charset "UTF-8";
 
-*{
-    color:rgb(143, 69, 9);
+body{
+    color:rgb(109, 51, 4);
 }
 
 .header{
-   width: 1000px;
-   margin: 0 auto;
-   padding: 20px 0;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 20px 0;
 }
 .logo{
     margin: 0;
@@ -17,4 +17,46 @@ section h1{
     margin: 0;
     text-align: center;
 }
+
+.nav1{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.nav1 a{
+    color: #6d2a03;
+    
+}
+
+
+
+footer {
+    background-color: rgb(61, 24, 2);
+    color:#fff
+}
+
+
+.footer-container {
+
+    display: flex;
+    margin: 0 auto;
+}
+span {
+    display: inline-block;
+    justify-content: space-around;
+}
+
+
+
+.footer3 a {
+    display: flex;
+    flex-wrap: nowrap;
+    
+    color:#fff
+    
+}
+
+
+
 
